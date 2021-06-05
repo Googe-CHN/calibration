@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+images:
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/0.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/1.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/2.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/3.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/4.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/5.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/6.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/7.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/8.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/9.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/10.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/11.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/12.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/13.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/14.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/15.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/16.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/17.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/18.png"
+   - "/home/birl/climbing_ws/src/calibration/data/handeye/19.png"
+Num: 20

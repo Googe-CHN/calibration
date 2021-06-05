@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+images:
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/0.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/1.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/2.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/3.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/4.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/5.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/6.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/7.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/8.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/9.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/10.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/11.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/12.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/13.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/14.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/15.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/16.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/17.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/18.png"
+   - "/home/birl/climbing_ws/src/calibration/data/intrinsics/19.png"
+Num: 20

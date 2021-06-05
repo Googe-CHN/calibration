@@ -1,0 +1,45 @@
+%YAML:1.0
+---
+
+# 0. home path
+Calibration.Home_path: "/home/birl/climbing_ws/src/calibration/data_g6_d435"
+Hand_Eye_Calibration_Carrier: "MC" # options: UR (with ur robot), MC(with motion capture system)
+
+# 1. collect_intrinsic_data
+
+# Kinect: "kinect2/qhd/image_color" 
+# Realsense: "/camera/color/image_raw"
+Collect_Intrinsic_Data.Image_Topic: "/camera/color/image_raw" 
+Collect_Intrinsic_Data.Output_Path: "/intrinsics"
+Collect_Intrinsic_Data.Output_Image_List_File: "/image_list.yaml"
+
+
+# 2. calibrate_intrinsic
+# Patter: chessboard, circles, acircles
+Calibrate_Intrinsic.Pattern: circles
+Calibrate_Intrinsic.Board_Size.Width: 7 # 11
+Calibrate_Intrinsic.Board_Size.Height: 7 # 8
+# Square_Size: milimeter
+Calibrate_Intrinsic.Square_Size: 25.0
+Calibrate_Intrinsic.Input_Image_List_File: "/intrinsics/image_list.yaml"
+Calibrate_Intrinsic.Output_Calibrate_Result: "/intrinsics/calibrate_result.yaml"
+Calibrate_Intrinsic.WritePoints: 0
+Calibrate_Intrinsic.Write_Extrinsics: 0
+Calibrate_Intrinsic.Show_Undistorted: 0
+
+# 3. collect_hand_eye_data
+# Kinect: "kinect2/qhd/image_color" 
+# Realsense: "/camera/color/image_raw"
+Collect_Hand_Eye_Data.Image_Topic: "/camera/color/image_raw" 
+Collect_Hand_Eye_Data.Tool_Pose_Topic: "/vrpn_client_node/climbot_1/pose"
+Collect_Hand_Eye_Data.Output_Path: "/handeye_"
+Collect_Hand_Eye_Data.Output_Image_List_File: "/image_list.yaml"
+Collect_Hand_Eye_Data.Output_Tool_Poses_File: "/tool_poses.yaml"
+
+# 4. calibrate_hand_eye
+# 将内参结果calibrate_result.yaml复制到handeye文件夹，或者更改路径指向intrinsic文件夹
+Calibrate_Hand_Eye.Input_Calibrate_Result: "/intrinsics/calibrate_result.yaml"
+Collect_Hand_Eye_Data.Input_Path: "/handeye_"
+Calibrate_Hand_Eye.Input_Tool_Poses_File: "/tool_poses.yaml"
+Calibrate_Hand_Eye.Input_Image_List_File: "/image_list.yaml"
+Calibrate_Hand_Eye.Output_Handeye_Result: "/handeye_result.yaml"
